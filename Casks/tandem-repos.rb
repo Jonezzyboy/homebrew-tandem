@@ -1,4 +1,4 @@
-cask "tandem" do
+cask "tandem-repos" do
   version "0.2.3"
   sha256 "d0a4da27474da7219a3d475cde207ae3ff382a570cc112c795ee1a287f1f686e"
 
