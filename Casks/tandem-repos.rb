@@ -1,8 +1,8 @@
 # Not "tandem": homebrew-cask's tandem is an unrelated app, and an unqualified
 # `brew install --cask tandem` resolves to it.
 cask "tandem-repos" do
-  version "0.3.1"
-  sha256 "45ab6fbe4280131ebe32b67cc195f4e7df00b1132cad63bfface4c20d2fdd9fb"
+  version "0.4.0"
+  sha256 "6f11d1e2b0867e79164ddb16d79f29660593d89a1317bdaf9516dcaf45e1c8a4"
 
   url "https://github.com/Jonezzyboy/tandem/releases/download/v#{version}/Tandem_v#{version}_macos_universal.zip"
   name "Tandem"
@@ -29,6 +29,7 @@ cask "tandem-repos" do
   # Changes and worktrees under ~/code/.tandem are the user's work, so zap
   # leaves them alone.
   zap trash: [
+    "~/Library/Application Support/com.alanjones.tandem",
     "~/Library/Caches/com.alanjones.tandem",
     "~/Library/HTTPStorages/com.alanjones.tandem",
     "~/Library/Saved Application State/com.alanjones.tandem.savedState",
