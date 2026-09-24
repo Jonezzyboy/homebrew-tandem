@@ -1,6 +1,6 @@
 cask "tandem" do
-  version "0.2.0"
-  sha256 "c6ce445f9681d2534a5bc271210cba33bb5ac99047b32d8665427843094a50ca"
+  version "0.2.1"
+  sha256 "da785589e2c258e44988e44d343c6374f8e09147e1ccadc55d70e8c33aeda456"
 
   url "https://github.com/Jonezzyboy/tandem/releases/download/v#{version}/Tandem_v#{version}_macos_universal.zip"
   name "Tandem"
