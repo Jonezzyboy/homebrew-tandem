@@ -4,11 +4,11 @@ cask "tandem" do
 
   url "https://github.com/Jonezzyboy/tandem/releases/download/v#{version}/Tandem_v#{version}_macos_universal.zip"
   name "Tandem"
-  desc "Work on one change across many repos: shared-branch worktrees, merge order and cross-linked PRs"
+  desc "Worktrees, merge order and linked PRs for one change across many repos"
   homepage "https://github.com/Jonezzyboy/tandem"
 
   depends_on formula: "gh"
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Tandem.app"
 
