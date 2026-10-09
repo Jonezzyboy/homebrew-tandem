@@ -1,8 +1,8 @@
 # Not "tandem": homebrew-cask's tandem is an unrelated app, and an unqualified
 # `brew install --cask tandem` resolves to it.
 cask "tandem-repos" do
-  version "0.22.2"
-  sha256 "5149aa1422c20cb68931a5fd6de616c01cc4b48090ba47004ccf3e0f8133a10e"
+  version "0.23.0"
+  sha256 "3bfcd5efe85a8f5ceb5738583173c9af9b0d38122b4e71a95ca3dfdfe84ce194"
 
   url "https://github.com/Jonezzyboy/tandem/releases/download/v#{version}/Tandem_v#{version}_macos_universal.zip"
   name "Tandem"
